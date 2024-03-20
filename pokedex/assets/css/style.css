@@ -1,0 +1,116 @@
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+.bg-pokemon {
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 3em;
+    border-radius: 10px;
+}
+
+.bg-blur {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (max-width:47em) {
+    .pokemonGif {
+        display: none;
+    }
+    .botonera-sidebar {
+        padding-top: 6rem!important;
+    }
+    .eliminar-desktop {
+        display: none;
+    }
+    .eliminar-mobile {
+        display: block;
+    }
+}
+
+@media screen and (min-width:47em) {
+    .eliminar-desktop {
+        display: block;
+    }
+    .eliminar-mobile {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1919px) {
+    .bg-blur {
+        height: calc(100vh);
+    }
+}
+
+.pokemon-img {
+    height: 200px !important;
+    width: fit-content;
+    display: block;
+}
+
+.pokemon-id {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+    margin: 2px;
+    display: block;
+}
+
+.pokemon-vida {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: lightblue;
+    color: black;
+    text-align: center;
+    padding-top: 8px;
+    margin: 2px;
+}
+
+.pokemon-ataque {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: rgb(98, 7, 168);
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+    margin: 2px;
+}
+
+.pokemon-velocidad {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: rgb(244, 188, 67);
+    color: black;
+    text-align: center;
+    padding-top: 8px;
+    margin: 2px;
+}
+
+.body-busqueda {
+    background-image: url(https://pbs.twimg.com/media/EYtf1tjWoAE4fpD.jpg:large);
+}
+
+.poke-text {
+    font-family: 'Pokemon Solid', sans-serif;
+    color: yellow;
+}
+
+.pokemons-nav {
+    position: absolute;
+    bottom: 0;
+}
+.body-detail{
+    background-image: url(https://i.gifer.com/XzZg.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
